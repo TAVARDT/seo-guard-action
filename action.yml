@@ -1,0 +1,21 @@
+name: 'TAVARDT SEO Guard Action'
+description: 'Automated CI/CD search regression prevention. Audits built HTML pages for canonicals, titles, hreflang, images alt, and schema.'
+author: 'TAVARDT (https://ag.tavardt.com)'
+
+branding:
+  icon: 'shield-check'
+  color: 'blue'
+
+inputs:
+  html-dir:
+    description: 'Path to directory containing exported/built HTML files (e.g. ./out, ./dist, ./build)'
+    required: false
+    default: './out'
+  fail-on-error:
+    description: 'Whether to halt the CI/CD pipeline on critical SEO errors'
+    required: false
+    default: 'true'
+
+runs:
+  using: 'node20'
+  main: 'guard.js'
