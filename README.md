@@ -3,14 +3,14 @@
 <div align="center">
   <p>Automated CI/CD search regression prevention and HTML auditor. Designed for high-ticket B2B digital protection.</p>
   <p>
-    <a href="#-english">🇺🇸 English</a> | 
-    <a href="#-português">🇧🇷 Português</a>
+    <a href="#english">🇺🇸 English</a> | 
+    <a href="#portugues">🇧🇷 Português</a>
   </p>
 </div>
 
 ***
 
-## 🇺🇸 English
+<h2 id="english">🇺🇸 English</h2>
 
 ### Overview
 This repository contains the official TAVARDT SEO Guard Action for CI/CD pipelines and static web builds (Next.js SSG, Astro, Hugo, Gatsby, Nuxt, Vite). In modern continuous deployment pipelines, silent code commits frequently break critical canonical tags, strip meta descriptions, or accidentally introduce `noindex` directives—causing catastrophic organic traffic loss before marketing teams notice. SEO Guard inspects built HTML files before deployment and halts the build if search regressions are detected.
@@ -79,12 +79,12 @@ bash guard.sh ./out
 
 ### Contact & Services
 Looking for elite technical SEO, website speed optimization, or custom web design?
-* Website: [ag.tavardt.com/digital-marketing](https://ag.tavardt.com/)
-* Email: contact@tavardt.com
+* Website: [ag.tavardt.com/digital-marketing](https://ag.tavardt.com/digital-marketing)
+* Email: [contact@tavardt.com](mailto:contact@tavardt.com)
 
 ***
 
-## 🇧🇷 Português
+<h2 id="portugues">🇧🇷 Português</h2>
 
 ### Visão Geral
 Este repositório contém a Action oficial da TAVARDT para prevenção de regressões de SEO em esteiras de CI/CD e builds estáticos (Next.js SSG, Astro, Hugo, Gatsby, Nuxt, Vite). Em deploys contínuos modernos, alterações de código frequentemente quebram tags canônicas, removem meta descriptions ou introduzem diretivas acidentais de `noindex`—destruindo o tráfego orgânico antes que o time de marketing perceba. O SEO Guard audita os arquivos HTML gerados antes do deploy e bloqueia o pipeline se falhas críticas forem encontradas.
@@ -154,4 +154,4 @@ bash guard.sh ./out
 ### Contato & Serviços
 Procurando por SEO técnico de elite, otimização de velocidade web ou web design de alto padrão?
 * Site: [ag.tavardt.com/br/marketing-digital/](https://ag.tavardt.com/br/marketing-digital/)
-* E-mail: contato@tavardt.com
+* E-mail: [contato@tavardt.com](mailto:contato@tavardt.com)
